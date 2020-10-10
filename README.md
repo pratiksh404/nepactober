@@ -3,6 +3,7 @@
 ![hack](https://user-images.githubusercontent.com/48166328/94787275-ba253600-03ef-11eb-8822-6b34943e9104.jpeg)
 
 ## Make Open source contribution and be part of hactoberfest, win tShort and goodies
+
 This repo is made with an objective to encourage Nepalese dev on open source contribution and to be part of hactoberfest.
 
 # About HactoberFest
@@ -43,14 +44,14 @@ Now clone the forked repository to your machine. Go to your GitHub account, open
 Now let's bring the cloned repository to your local machine.  
 `git clone <url-you-just-copied>`  
 For example:  
-` git clone https://github.com/harshareddy794/HACTOBERFEST2020.git`
+` git clone https://github.com/pratiksh404/nepactober.git`
 
 ---
 
 ## 3. Move inside the repository
 
 Since you want to change the files inside, first let's move to the folder correctly. Use the following command on terminal:  
-`cd HacktoberFest2020`
+`cd nepactober`
 
 ---
 
@@ -61,12 +62,6 @@ Since now you're about to make your personal changes to the project, it's always
 `git checkout -b <branch_name>`  
 For example:  
 `git checkout -b new_branch`
-
----
-
-## 5. Make the required changes
-
-Check out the [CONTRIBUTE.md](/contribute.md) file to see what all contributions can you make.
 
 ---
 
