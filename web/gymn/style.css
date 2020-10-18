@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #c0c0c0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.container{
+    max-width: 90%;
+    background-color: #ffffff;
+    margin: auto;
+    height: max-content;
+
+}
+.header{
+    height: 150px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+
+}
+#logo{
+    float: left;
+    width: 30%;
+    height: 100%;
+    
+}
+#header2{
+    float: right;
+    width: 70%;
+    height: 100%;
+    text-align: right;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    
+}
+.contact{
+    padding: 5px 5px;
+    font-size: 14px;
+}
+.icon{
+    padding-top: 5px;
+    padding-bottom: auto;
+    padding-right: 7px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    background-color:  #054470;
+    padding: 7px;
+    border: 2px solid white;
+   
+    
+    
+}
+.menu a:hover{
+    color: #863129;
+    background-color:#c0c0c0 ;
+    padding: 7px;
+    
+   
+
+}
+.menu ul li:first-child{
+    margin-right: 5px;
+}
+.menu ul li:last-child{
+    margin-left: 5px;
+}
+li a{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    margin-top: 30px;
+ 
+    height: 2em;
+    padding: top 5px;
+    
+}
+
+  
+}
+.menubox a{
+    color:white;
+}
+.border{
+    box-sizing: border-box;
+}
+.box{
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+.box1{
+    width: 66%;
+    float: left;
+    padding-left: 2em;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-right: 1px dotted black;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 14px;
+
+}
+.box1 ul li{
+    list-style-type:disc;
+    margin-left: 30px;
+
+}
+.box1 h1, .box2 h1{
+    color: #0f77be;
+}
+.box2{
+    width: 33%;
+    float:right;
+    box-sizing: border-box;
+    padding-left: 2em;
+    
+}
+.box2 a{
+    font-weight: 800;
+    color: #044470;
+}
+.c{
+    clear: both;
+}
+.footer{
+    background-color: #044470;
+    height: 2em;
+    color: white;
+    font-weight: 200px;
+    font-size: 14px;
+}
+.leftfooter{
+    float: left;
+    text-align: left;
+    padding: 5px;
+}
+.rightfooter{
+float: right;
+text-align: right;
+padding: 5px;
+}
