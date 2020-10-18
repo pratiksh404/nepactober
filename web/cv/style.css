@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding:0px;
+    color:#868e96;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:grey;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    min-width:  95vw;
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:grey;
+   justify-content: flex-end;
+}
+
+.navbar{
+    min-height: 100vh;
+    min-width: 25%;
+    background-color:#bd5d38;
+    position: fixed;
+    top: 0px;
+    left: 17px;  
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+   }
+.content{
+    max-width: 75%;
+    background-color:white;
+    font-family: sans-serif;
+    align-items: flex-end;
+    padding-left: 3em;
+    padding-right: 3em;
+    box-sizing: border-box;
+}
+.image{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    padding-top: 8em;
+}
+.menu{
+    height: 60%;
+    width: 100%;
+    text-align: center;
+    padding-top: 1em;
+    
+}
+.image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 7px solid #ca7d60 ;
+}
+a{
+    text-decoration: none;
+}
+.menu ul li a{
+    color: #deae9c;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    color: white;
+}
+.menu ul li a:active{
+    color: white;
+}
+.menu ul li{
+    padding-bottom: 2em;
+    list-style-type:none;
+}
+.content div{
+    min-height: 100vh;
+    border-bottom: 1px solid #868e96;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding-top: 7em;
+    padding-bottom: 3em;
+    
+}
+#about ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 20px 30px;
+    font-size: 20px;
+    border: 1px solid #868e96;
+    border-radius: 50%;
+    color: white;
+    background-color: #495057;
+}
+#about ul li:hover{
+    color: white;
+    background-color:black;
+}
+.table{
+    border: 1px;
+    margin-bottom: 2em;
+}
+td{
+    padding: 10px;
+}
+.date{
+   color: red;
+   font-size: 14px;
+}
+h1,h3,h4{
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-size: 40px;
+    color: #343a40;
+}
+h3{
+    font-size: 25px;
+    color:#343a40;
+}
+h4{
+    font-size: 17px;
+}
+#skills ul li,#awards ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+    
+}
+#skills ul li::before{
+    content: "\2714";
+    margin-right: 5px;
+}
+#awards ul li::before{
+    content: "\1F3C6";
+    margin-right: 5px;
+}
+.textcolor{
+    color: #bd5d38;
+}
