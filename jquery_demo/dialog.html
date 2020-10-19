@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>dailog</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#save').click(function() {
+                $('#dialog').dialog({
+                    buttons: {
+                        OK: function() {
+                            $(this).dialog('close');
+                        }
+                    },
+
+                    closeonEscape: true,
+                    draggable: false,
+                    resizable: false,
+                    show: 'fade',
+                    modal: true,
+                    height: 400,
+                    position: {
+
+                        at: "right bottom",
+                        of: window
+                    }
+
+                });
+            });
+        });
+    </script>
+
+
+
+</head>
+
+<body>
+    <!--   in positin option specify x direction before y direction and shouldbe between [] i.e. as in array-->
+    <input type="button" id="save" value="save">
+    <div id="dialog" title="dialog box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis voluptatibus, molestias cupiditate consectetur blanditiis atque a iusto explicabo eaque placeat.</div>
+</body>
+
+</html>

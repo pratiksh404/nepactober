@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>sortable</title>
+     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+    <script type="text/javascript" src="BOOTSTRAP/jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+</head>
+
+<body>
+    <ul id="namesDC">
+        <li>batman</li>
+        <li>wonderwoman</li>
+        <li>superman</li>
+        <li>aquaman</li>
+    </ul>
+    <ul id="namesMARVEL">
+        <li>Docter Strange</li>
+        <li>Ironman</li>
+        <li>spiderman</li>
+        <li>Venom</li>
+    </ul>
+    <br>
+    <div class="updatefeedback"></div>
+    <script type='text/javascript'>
+        $(document).ready(function() {
+            $('#namesDC,#namesMARVEL').sortable({
+                containment: 'document',
+                tolerance: 'pointer',
+                pointer: 'cursor',
+                revert: true,
+                opacity: 0.6,
+                connectWith: '#namesDC,#namesMARVEL',
+                update: function() {
+                    $('.updatefeedback').text('UPDATED!!!');
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

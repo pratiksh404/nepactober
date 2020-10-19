@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>tabs</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#tabs').tabs().find('.ui-tabs-nav').sortable({
+                axis: 'x'
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="tabs">
+        <ul>
+            <li><a href="#ABoutme">ABout me</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Content">Content</a></li>
+            <li><a href="#PUBG">PUBG</a></li>
+        </ul>
+        <div id="ABoutme">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, provident. Eveniet dolor aspernatur ducimus harum, consectetur assumenda. Minima, facere, quaerat.</p>
+        </div>
+
+        <div id="Portfolio">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero voluptas saepe quia, quos unde maxime corrupti necessitatibus fugit! Quisquam voluptatibus perferendis, at illum culpa autem. Itaque nulla doloremque totam! Deserunt!</p>
+        </div>
+
+        <div id="Content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere voluptatem incidunt impedit quibusdam laborum ratione beatae deleniti accusamus totam aspernatur adipisci necessitatibus repellendus, voluptas sit fuga ut omnis non quo. Perspiciatis dolor, doloribus est magni harum quas, magnam tempora soluta.</p>
+        </div>
+
+        <div id="PUBG">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim explicabo, repudiandae recusandae quasi quaerat dolorum commodi minus delectus beatae. At?</p>
+        </div>
+    </div>
+</body>
+
+</html>
