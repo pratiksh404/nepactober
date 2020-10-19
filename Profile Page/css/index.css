@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+.rightscroll{
+   height: 100vh;
+    overflow-x:hidden;
+    overflow-y: scroll;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    padding: 0;
+    border: 2px solid black;
+}
+.prof{
+       height: 100vh;
+   overflow: hidden;
+      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    padding: 0;
+    border: 2px solid black;
+}
+/*  profile card*/
+.prof .card {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+
+  box-shadow: 0 10px 25px 5px rgba(0, 0, 0, 0.2);
+  background: black;
+  overflow: hidden;
+}
+.prof .card .ds-top {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  left: 0;
+background-image: url(../img/cover.png);
+    background-position: center;
+    background-size: cover;
+  height: 40%;
+ 
+  animation: dsTop 1.5s;
+}
+.prof .card .avatar-holder {
+  position: absolute;
+  margin: auto;
+  top: 34%;
+  right: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+
+  background: white;
+  overflow: hidden;
+  animation: mvTop 1.5s;
+ 
+}
+.prof .card .avatar-holder img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.prof .card .name {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: -6%;
+  left: 0;
+  width: inherit;
+  height: 5%;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+    color: red;
+   font-size: 12px;
+}
+
+.prof .card .ds-skill {
+  position: absolute;
+  margin: auto;
+  bottom: 60px;
+  right: 0;
+  left: 0;
+  padding: 10px;
+  height: 30%;
+  animation: mvBottom 1.5s;
+}
+.prof .card .ds-skill h6 {
+  margin-bottom: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: crimson;
+}
+.prof .card .ds-skill .skill h6 {
+  font-weight: 400;
+  font-size: 8px;
+  letter-spacing: 0.05em;
+  margin: 4px 0;
+  color: white;
+}
+.prof .card .ds-skill .skill .fab {
+  color: crimson;
+  font-size: 14px;
+}
+.prof .card .ds-skill .skill .bar {
+  height: 5px;
+  background: crimson;
+  text-align: right;
+}
+.prof .card .ds-skill .skill .bar p {
+  color: white;
+  font-size: 8px;
+  padding-top: 5px;
+  animation: fadeIn 5s;
+}
+.prof .card .ds-skill .skill .bar:hover {
+  background: white;
+}
+ .prof .card .ds-skill .skill .bar-html {
+  width: 95%;
+  animation: htmlSkill 1s;
+  animation-delay: .4s;
+}
+ .prof .card .ds-skill .skill .bar-css {
+  width: 90%;
+  animation: cssSkill 2s;
+  animation-delay: .4s;
+}
+ .prof .card .ds-skill .skill .bar-js {
+  width: 75%;
+  animation: jsSkill 3s;
+  animation-delay: .4s;
+}
+ .prof .card .ds-skill .skill .bar-af {
+  width: 55%;
+  animation: afSkill 3s;
+  animation-delay: .4s;
+}
+ .prof .card .ds-skill .skill .bar-ps {
+  width: 95%;
+  animation: psSkill 3s;
+  animation-delay: .4s;
+}
+ .prof .card .ds-skill .skill .bar-php {
+  width: 35%;
+  animation: phpSkill 3s;
+  animation-delay: .4s;
+}
+
+@keyframes fadeInMove {
+  0% {
+    opacity: 0;
+    left: -300px;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes htmlSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes cssSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes jsSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 75%;
+  }
+}
+@keyframes afSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 55%;
+  }
+}
+@keyframes psSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 95%;
+  }
+}
+@keyframes phpSkill {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 35%;
+  }
+}
+@keyframes mvBottom {
+  0% {
+    bottom: -130px;
+  }
+  100% {
+    bottom: 60px;
+  }
+}
+@keyframes mvTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 256px;
+  }
+}
+@keyframes dsTop {
+  0% {
+    top: -150px;
+  }
+  100% {
+    top: 0;
+  }
+}
+.prof .card .contactme{
+    position: absolute;
+  margin: auto;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  padding: 10px;
+  height: 10%;
+  animation: mvBottomicon 1.5s;
+  
+}
+.prof .card .contactme a{
+    color: white;
+   padding: 5px;
+  font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    animation: fadeIn 4s ease-in;
+}
+.prof .card .contactme a:hover{
+    color: red;
+    transition: 1.5s;
+}
+.rightscroll{
+   height: 100vh;
+    overflow-x:hidden;
+    overflow-y: scroll;
+      background: black;
+    color: #676767;
+    padding: 0;
+    border: 2px solid black;
+}
+.rightscroll .covervideo{
+    padding: 0;
+    overflow: hidden;
+    height: auto;
+ 
+}
+.rightscroll .header{
+    text-align: center;
+    font-size: 69px;
+    font-weight: lighter;
+    color: #4b4b4b;
+    height: auto;
+}
+.rightscroll .pp{
+    overflow-x: hidden;
+    height: auto;
+
+}
+.rightscroll .pp img{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rightscroll .aboutme{
+    height: auto;
+    text-align: center;
+    font-size: 50px;
+margin-top: 20%;
+}
+    
+}
+.rightscroll .threshold{
+    height: auto;
+    overflow: hidden; 
+}
+.rightscroll .threshold img{
+    height: auto;
+    width: 100%
+}
+.rightscroll  .service{
+    height: auto;
+    padding: 0;
+   
+    text-align: center;
+    
+}
+.rightscroll  .service h6{
+    padding: 20px;
+    font-size: 14px;
+}
