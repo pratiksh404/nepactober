@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Progress Bar</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $('#upload').click(function() {
+                var val = 0;
+                var interval = setInterval(function() {
+                    val += 1;
+                    $('#pb').progressbar({
+                        value: val
+                    });
+                    if (val == 100) {
+                        clearInterval(interval);
+                    }
+                    $('#percent').text(val + '%');
+                }, 500);
+
+            });
+        });
+
+    </script>
+    <style>
+        body{
+            font-size: 12px;
+        }
+        #pb{
+            width: 40vw;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="button" value="upload" id="upload">
+    <div id="pb"></div>
+    <div id="percent"></div>
+</body>
+
+</html>

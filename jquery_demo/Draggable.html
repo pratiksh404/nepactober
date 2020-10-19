@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Draggable</title>
+
+</head>
+
+<body>
+    <div style="width: 50vw;height: 50vh;background-color: blue">
+        <span id="drag" style="color: white">Drag Me</span>
+    </div>
+    <div class="dragevent"></div>
+    <script type="text/javascript" src="BOOTSTRAP/jquery.js"></script>
+    <script src="jquery-ui.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#drag').draggable({
+                //axis: 'x'//
+                //we can drag only in x-axis same happens with y axis
+                //containment: 'document'
+                //limits the draggable area to area of document
+                containment: 'parent',
+                opacity: 0.5,
+                revert: true,
+                start: function() {
+                    $('.dragevent').text('dragging started');
+                },
+                drag: function() {
+                    $('.dragevent').text('dragging ');
+                },
+                stop: function() {
+                    $('.dragevent').text('dragging stopped');
+                }
+            });
+        });
+        /****event*************/
+        /*
+        start,drag,stop*/
+
+    </script>
+
+</body>
+
+</html>
