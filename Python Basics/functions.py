@@ -1,66 +1,20 @@
-# def Afunction():
-#     return "THis is a function"
+# A function is a block of code which only runs when it is called. In Python, we do not use curly brackets, we use indentation with tabs or spaces
 
-# # New_function()
-# # print('This is not a function')
-# print(Afunction())
-# print('Not a function')
-#recursive function for fibonacci series
-# def fibonacci(n):
-#     if n==1:
-#         return 1
-#     elif n==2:
-#         return 1
-#     elif n>2:
-#         return fibonacci(n-1) + fibonacci(n-2)
 
-# for n in range(1,10):
-#     print(fibonacci(n))
-# recursive infinite loop solution for fibonacci series
+# Create function
+def sayHello(name='Sam'):
+    print(f'Hello {name}')
 
-#using cache
-# cache_fibo={}
-# def fibonacci(n):
-#     #if we have a cache value then return it
-#     if n in cache_fibo:
-#         return cache_fibo[n]
-#     #compute the nth term
-#     if n==1:
-#         return 1
-#     elif n==2:
-#         return 1
-#     elif n>2:
-#         value=fibonacci(n-1) + fibonacci(n-2)
-#     #first of all cache the value and return 
-#     cache_fibo[n]=value
-#     return value 
 
-# for n in range(1,2000):
-#     print(fibonacci(n))
-#Print odd even numbers from list
-list1=[1,2,3,4,5,6,7,8,9,10]
-def Even():
-    
-    for a in list1:
-        if a%2==0:
-            print(a)
-def Odd():
-    for a in list1:
-        if a%2!=0:
-            print(a)
-Odd()
-print(' ')
-Even()
-#check prime
-def checkprime(a):
-	check=0
-	for i in range(2,a+1):
-		if a%i==0:
-			check = check+1
+# Return values
+def getSum(num1, num2):
+    total = num1 + num2
+    return total
 
-	if check == 1:
-		print(str(a) +" is a prime number")
-	else:
-		print(str(a) +" is not a prime number")
 
-checkprime(10)
+# A lambda function is a small anonymous function.
+# A lambda function can take any number of arguments, but can only have one expression. Very similar to JS arrow functions
+
+getSum = lambda num1, num2: num1 + num2
+
+print(getSum(10, 3))

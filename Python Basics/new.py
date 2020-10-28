@@ -1,0 +1,23 @@
+list1=['1','3','2']
+list2=['x','y','z']
+tuple1=('x','y','z')
+sets1={'a','b','c','a'}
+# print(list1.insert(0,list2))
+# list1.append('f')
+# print(list1)
+# list1.extend('c')
+# print(list1)
+# print(list1.pop())
+# list1.remove('b')
+# print(list1)
+print(list1[:2]+list2[2:]+list2[:2]+list1[2:])
+list1.reverse()
+print(dir(list1))
+list1.sort()
+print(list1)
+#tuple1.append('f')
+print(tuple1)
+print(sets1)
+print(sets1)
+print(sets1)
+print('a' in sets1)

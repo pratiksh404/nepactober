@@ -1,38 +1,42 @@
-class Employee:
-	def __init__(self,first,last,pay):
-		self.first = first
-		self.last = last
-		self.email = first +"."+ last + "@gmail.com"
+# A class is like a blueprint for creating objects. An object has properties and methods(functions) associated with it. Almost everything in Python is an object
 
-	def fullname(self):
-		return "{} {}".format(self.first,self.last)
+# Create class
+class User:
+  # Constructor
+  def __init__(self, name, email, age):
+    self.name = name
+    self.email = email
+    self.age = age
 
-#creating instances of class
-# object
-emp1 = Employee('n','bista','2000')
-emp2 = Employee('s','Shakya','201010')
-print(emp1.first)
-print(emp1.fullname())
-#instances of class(object)
+  def greeting(self):
+    return f'My name is {self.name} and I am {self.age}'
+
+  def has_birthday(self):
+    self.age += 1
 
 
-# print(emp1)
-# print(emp2)
-# emp1.first = 'paras'
-# emp1.last = 'Khadka'
-# emp1.pay = 20000
-# emp1.email = "alskfj@asja.com"
+# Extend class
+class Customer(User):
+  # Constructor
+  def __init__(self, name, email, age):
+    self.name = name
+    self.email = email
+    self.age = age
+    self.balance = 0
 
-# emp2.first = 'New Paras'
-# emp2.last = 'Khadka'
-# emp2.pay = 2000000000000
-# emp2.email = "alskfj@asja.com"
-# print(emp1.first)
-# print(emp1.last)
-# print(emp1.pay)
-# print(emp1.email)
+  def set_balance(self, balance):
+    self.balance = balance
 
-# print(emp2.first)
-# print(emp2.last)
-# print(emp2.pay)
-# print(emp2.email)
+  def greeting(self):
+    return f'My name is {self.name} and I am {self.age} and my balance is {self.balance}'
+
+#  Init user object
+brad = User('Brad Traversy', 'brad@gmail.com', 37)
+# Init customer object
+janet = Customer('Janet Johnson', 'janet@yahoo.com', 25)
+
+janet.set_balance(500)
+print(janet.greeting())
+
+brad.has_birthday()
+print(brad.greeting())
