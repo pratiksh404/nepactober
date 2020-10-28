@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Advanced Nepali Date Picker Examples</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.3.1/flatly/bootstrap.min.css">
+
+    <link rel="stylesheet" href="nepali-date-picker.css">
+    <style>
+        .container { margin: 150px auto; }
+        .form-control { margin: 2rem auto; }
+</style>
+</head>
+
+<body><div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="https://www.jqueryscript.net/time-clock/nepali-date-picker.html">Download This Plugin</a></li>
+<li><a href="https://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul><div id="carbon-block"></div>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+<div class="container">
+    <h1>Advanced Nepali Date Picker Examples</h1>
+    <form action="POST">
+        <h2>single Date Picker</h2>
+        <input type="text" class="date-picker single form-control" data-single="true" value="2076-10-5" placeholder="Click here to select date">
+        <input type="text" class="date-picker1 single form-control" data-single="true" value="" placeholder="Click here to select date">
+
+    </form>
+
+
+    <form action="POST">
+        <h2>Multiple Date Select</h2>
+        <input type="text" class="date-picker form-control" value="2075-5-12" name="date1" placeholder="Click here to select date" >
+        <input type="text" class="date-picker form-control" value="2076-12-11,2076-12-12,2076-12-13" name="date2" placeholder="Click here to select date">
+    </form>
+
+    <form action="POST">
+        <h2>Multiple Date Select</h2>
+        <input type="text" class="date-picker1 form-control" value="2076-12-11, 2076-12-12, 2076-12-13, 2076-12-16, 2076-12-17, 2076-12-18, 2076-12-19" name="date3" placeholder="Click here to select date" data-show_all_dates="true">
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="nepali-date-picker.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            $('.date-picker').nepaliDatePicker();
+            $('.date-picker1').nepaliDatePicker();
+        })
+    </script>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+</body>
+
+</html>
