@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CompanyPayroll/1.0.0": {
+        "runtime": {
+          "CompanyPayroll.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CompanyPayroll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

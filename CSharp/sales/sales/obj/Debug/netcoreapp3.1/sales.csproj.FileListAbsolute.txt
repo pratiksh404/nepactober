@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\sales\sales\bin\Debug\netcoreapp3.1\sales.exe
+C:\Users\parja\source\repos\sales\sales\bin\Debug\netcoreapp3.1\sales.deps.json
+C:\Users\parja\source\repos\sales\sales\bin\Debug\netcoreapp3.1\sales.runtimeconfig.json
+C:\Users\parja\source\repos\sales\sales\bin\Debug\netcoreapp3.1\sales.runtimeconfig.dev.json
+C:\Users\parja\source\repos\sales\sales\bin\Debug\netcoreapp3.1\sales.dll
+C:\Users\parja\source\repos\sales\sales\bin\Debug\netcoreapp3.1\sales.pdb
+C:\Users\parja\source\repos\sales\sales\obj\Debug\netcoreapp3.1\sales.csprojAssemblyReference.cache
+C:\Users\parja\source\repos\sales\sales\obj\Debug\netcoreapp3.1\sales.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\sales\sales\obj\Debug\netcoreapp3.1\sales.AssemblyInfo.cs
+C:\Users\parja\source\repos\sales\sales\obj\Debug\netcoreapp3.1\sales.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\sales\sales\obj\Debug\netcoreapp3.1\sales.dll
+C:\Users\parja\source\repos\sales\sales\obj\Debug\netcoreapp3.1\sales.pdb
+C:\Users\parja\source\repos\sales\sales\obj\Debug\netcoreapp3.1\sales.genruntimeconfig.cache

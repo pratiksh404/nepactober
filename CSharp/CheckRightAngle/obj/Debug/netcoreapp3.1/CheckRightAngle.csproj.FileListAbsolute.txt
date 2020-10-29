@@ -1,0 +1,12 @@
+C:\Users\parja\source\repos\CheckRightAngle\bin\Debug\netcoreapp3.1\CheckRightAngle.exe
+C:\Users\parja\source\repos\CheckRightAngle\bin\Debug\netcoreapp3.1\CheckRightAngle.deps.json
+C:\Users\parja\source\repos\CheckRightAngle\bin\Debug\netcoreapp3.1\CheckRightAngle.runtimeconfig.json
+C:\Users\parja\source\repos\CheckRightAngle\bin\Debug\netcoreapp3.1\CheckRightAngle.runtimeconfig.dev.json
+C:\Users\parja\source\repos\CheckRightAngle\bin\Debug\netcoreapp3.1\CheckRightAngle.dll
+C:\Users\parja\source\repos\CheckRightAngle\bin\Debug\netcoreapp3.1\CheckRightAngle.pdb
+C:\Users\parja\source\repos\CheckRightAngle\obj\Debug\netcoreapp3.1\CheckRightAngle.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\CheckRightAngle\obj\Debug\netcoreapp3.1\CheckRightAngle.AssemblyInfo.cs
+C:\Users\parja\source\repos\CheckRightAngle\obj\Debug\netcoreapp3.1\CheckRightAngle.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\CheckRightAngle\obj\Debug\netcoreapp3.1\CheckRightAngle.dll
+C:\Users\parja\source\repos\CheckRightAngle\obj\Debug\netcoreapp3.1\CheckRightAngle.pdb
+C:\Users\parja\source\repos\CheckRightAngle\obj\Debug\netcoreapp3.1\CheckRightAngle.genruntimeconfig.cache

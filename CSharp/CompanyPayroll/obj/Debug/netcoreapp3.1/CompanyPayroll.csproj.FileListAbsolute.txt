@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\CompanyPayroll\bin\Debug\netcoreapp3.1\CompanyPayroll.exe
+C:\Users\parja\source\repos\CompanyPayroll\bin\Debug\netcoreapp3.1\CompanyPayroll.deps.json
+C:\Users\parja\source\repos\CompanyPayroll\bin\Debug\netcoreapp3.1\CompanyPayroll.runtimeconfig.json
+C:\Users\parja\source\repos\CompanyPayroll\bin\Debug\netcoreapp3.1\CompanyPayroll.runtimeconfig.dev.json
+C:\Users\parja\source\repos\CompanyPayroll\bin\Debug\netcoreapp3.1\CompanyPayroll.dll
+C:\Users\parja\source\repos\CompanyPayroll\bin\Debug\netcoreapp3.1\CompanyPayroll.pdb
+C:\Users\parja\source\repos\CompanyPayroll\obj\Debug\netcoreapp3.1\CompanyPayroll.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\CompanyPayroll\obj\Debug\netcoreapp3.1\CompanyPayroll.AssemblyInfo.cs
+C:\Users\parja\source\repos\CompanyPayroll\obj\Debug\netcoreapp3.1\CompanyPayroll.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\CompanyPayroll\obj\Debug\netcoreapp3.1\CompanyPayroll.dll
+C:\Users\parja\source\repos\CompanyPayroll\obj\Debug\netcoreapp3.1\CompanyPayroll.pdb
+C:\Users\parja\source\repos\CompanyPayroll\obj\Debug\netcoreapp3.1\CompanyPayroll.genruntimeconfig.cache
+C:\Users\parja\source\repos\CompanyPayroll\obj\Debug\netcoreapp3.1\CompanyPayroll.csprojAssemblyReference.cache

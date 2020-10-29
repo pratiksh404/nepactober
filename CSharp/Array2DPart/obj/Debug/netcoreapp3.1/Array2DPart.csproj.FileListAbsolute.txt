@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\Array2DPart\bin\Debug\netcoreapp3.1\Array2DPart.exe
+C:\Users\parja\source\repos\Array2DPart\bin\Debug\netcoreapp3.1\Array2DPart.deps.json
+C:\Users\parja\source\repos\Array2DPart\bin\Debug\netcoreapp3.1\Array2DPart.runtimeconfig.json
+C:\Users\parja\source\repos\Array2DPart\bin\Debug\netcoreapp3.1\Array2DPart.runtimeconfig.dev.json
+C:\Users\parja\source\repos\Array2DPart\bin\Debug\netcoreapp3.1\Array2DPart.dll
+C:\Users\parja\source\repos\Array2DPart\bin\Debug\netcoreapp3.1\Array2DPart.pdb
+C:\Users\parja\source\repos\Array2DPart\obj\Debug\netcoreapp3.1\Array2DPart.csprojAssemblyReference.cache
+C:\Users\parja\source\repos\Array2DPart\obj\Debug\netcoreapp3.1\Array2DPart.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\Array2DPart\obj\Debug\netcoreapp3.1\Array2DPart.AssemblyInfo.cs
+C:\Users\parja\source\repos\Array2DPart\obj\Debug\netcoreapp3.1\Array2DPart.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\Array2DPart\obj\Debug\netcoreapp3.1\Array2DPart.dll
+C:\Users\parja\source\repos\Array2DPart\obj\Debug\netcoreapp3.1\Array2DPart.pdb
+C:\Users\parja\source\repos\Array2DPart\obj\Debug\netcoreapp3.1\Array2DPart.genruntimeconfig.cache
