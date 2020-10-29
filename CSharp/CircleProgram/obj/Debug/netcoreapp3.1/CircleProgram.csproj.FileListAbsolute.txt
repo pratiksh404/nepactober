@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\CircleProgram\bin\Debug\netcoreapp3.1\CircleProgram.exe
+C:\Users\parja\source\repos\CircleProgram\bin\Debug\netcoreapp3.1\CircleProgram.deps.json
+C:\Users\parja\source\repos\CircleProgram\bin\Debug\netcoreapp3.1\CircleProgram.runtimeconfig.json
+C:\Users\parja\source\repos\CircleProgram\bin\Debug\netcoreapp3.1\CircleProgram.runtimeconfig.dev.json
+C:\Users\parja\source\repos\CircleProgram\bin\Debug\netcoreapp3.1\CircleProgram.dll
+C:\Users\parja\source\repos\CircleProgram\bin\Debug\netcoreapp3.1\CircleProgram.pdb
+C:\Users\parja\source\repos\CircleProgram\obj\Debug\netcoreapp3.1\CircleProgram.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\CircleProgram\obj\Debug\netcoreapp3.1\CircleProgram.AssemblyInfo.cs
+C:\Users\parja\source\repos\CircleProgram\obj\Debug\netcoreapp3.1\CircleProgram.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\CircleProgram\obj\Debug\netcoreapp3.1\CircleProgram.dll
+C:\Users\parja\source\repos\CircleProgram\obj\Debug\netcoreapp3.1\CircleProgram.pdb
+C:\Users\parja\source\repos\CircleProgram\obj\Debug\netcoreapp3.1\CircleProgram.genruntimeconfig.cache
+C:\Users\parja\source\repos\CircleProgram\obj\Debug\netcoreapp3.1\CircleProgram.csprojAssemblyReference.cache
