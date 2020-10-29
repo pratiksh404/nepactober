@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\new\Prorgram.cs\bin\Debug\netcoreapp3.1\Prorgram.cs.exe
+C:\Users\parja\source\repos\new\Prorgram.cs\bin\Debug\netcoreapp3.1\Prorgram.cs.deps.json
+C:\Users\parja\source\repos\new\Prorgram.cs\bin\Debug\netcoreapp3.1\Prorgram.cs.runtimeconfig.json
+C:\Users\parja\source\repos\new\Prorgram.cs\bin\Debug\netcoreapp3.1\Prorgram.cs.runtimeconfig.dev.json
+C:\Users\parja\source\repos\new\Prorgram.cs\bin\Debug\netcoreapp3.1\Prorgram.cs.dll
+C:\Users\parja\source\repos\new\Prorgram.cs\bin\Debug\netcoreapp3.1\Prorgram.cs.pdb
+C:\Users\parja\source\repos\new\Prorgram.cs\obj\Debug\netcoreapp3.1\Prorgram.cs.csprojAssemblyReference.cache
+C:\Users\parja\source\repos\new\Prorgram.cs\obj\Debug\netcoreapp3.1\Prorgram.cs.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\new\Prorgram.cs\obj\Debug\netcoreapp3.1\Prorgram.cs.AssemblyInfo.cs
+C:\Users\parja\source\repos\new\Prorgram.cs\obj\Debug\netcoreapp3.1\Prorgram.cs.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\new\Prorgram.cs\obj\Debug\netcoreapp3.1\Prorgram.cs.dll
+C:\Users\parja\source\repos\new\Prorgram.cs\obj\Debug\netcoreapp3.1\Prorgram.cs.pdb
+C:\Users\parja\source\repos\new\Prorgram.cs\obj\Debug\netcoreapp3.1\Prorgram.cs.genruntimeconfig.cache

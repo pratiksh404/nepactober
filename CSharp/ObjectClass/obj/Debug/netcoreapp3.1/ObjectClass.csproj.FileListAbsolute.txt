@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\ObjectClass\bin\Debug\netcoreapp3.1\ObjectClass.exe
+C:\Users\parja\source\repos\ObjectClass\bin\Debug\netcoreapp3.1\ObjectClass.deps.json
+C:\Users\parja\source\repos\ObjectClass\bin\Debug\netcoreapp3.1\ObjectClass.runtimeconfig.json
+C:\Users\parja\source\repos\ObjectClass\bin\Debug\netcoreapp3.1\ObjectClass.runtimeconfig.dev.json
+C:\Users\parja\source\repos\ObjectClass\bin\Debug\netcoreapp3.1\ObjectClass.dll
+C:\Users\parja\source\repos\ObjectClass\bin\Debug\netcoreapp3.1\ObjectClass.pdb
+C:\Users\parja\source\repos\ObjectClass\obj\Debug\netcoreapp3.1\ObjectClass.csprojAssemblyReference.cache
+C:\Users\parja\source\repos\ObjectClass\obj\Debug\netcoreapp3.1\ObjectClass.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\ObjectClass\obj\Debug\netcoreapp3.1\ObjectClass.AssemblyInfo.cs
+C:\Users\parja\source\repos\ObjectClass\obj\Debug\netcoreapp3.1\ObjectClass.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\ObjectClass\obj\Debug\netcoreapp3.1\ObjectClass.dll
+C:\Users\parja\source\repos\ObjectClass\obj\Debug\netcoreapp3.1\ObjectClass.pdb
+C:\Users\parja\source\repos\ObjectClass\obj\Debug\netcoreapp3.1\ObjectClass.genruntimeconfig.cache
