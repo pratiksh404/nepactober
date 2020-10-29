@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\BankAndSales\bin\Debug\netcoreapp3.1\BankAndSales.exe
+C:\Users\parja\source\repos\BankAndSales\bin\Debug\netcoreapp3.1\BankAndSales.deps.json
+C:\Users\parja\source\repos\BankAndSales\bin\Debug\netcoreapp3.1\BankAndSales.runtimeconfig.json
+C:\Users\parja\source\repos\BankAndSales\bin\Debug\netcoreapp3.1\BankAndSales.runtimeconfig.dev.json
+C:\Users\parja\source\repos\BankAndSales\bin\Debug\netcoreapp3.1\BankAndSales.dll
+C:\Users\parja\source\repos\BankAndSales\bin\Debug\netcoreapp3.1\BankAndSales.pdb
+C:\Users\parja\source\repos\BankAndSales\obj\Debug\netcoreapp3.1\BankAndSales.csprojAssemblyReference.cache
+C:\Users\parja\source\repos\BankAndSales\obj\Debug\netcoreapp3.1\BankAndSales.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\BankAndSales\obj\Debug\netcoreapp3.1\BankAndSales.AssemblyInfo.cs
+C:\Users\parja\source\repos\BankAndSales\obj\Debug\netcoreapp3.1\BankAndSales.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\BankAndSales\obj\Debug\netcoreapp3.1\BankAndSales.dll
+C:\Users\parja\source\repos\BankAndSales\obj\Debug\netcoreapp3.1\BankAndSales.pdb
+C:\Users\parja\source\repos\BankAndSales\obj\Debug\netcoreapp3.1\BankAndSales.genruntimeconfig.cache
