@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\Asyncronus\bin\Debug\netcoreapp3.1\Asyncronus.exe
+C:\Users\parja\source\repos\Asyncronus\bin\Debug\netcoreapp3.1\Asyncronus.deps.json
+C:\Users\parja\source\repos\Asyncronus\bin\Debug\netcoreapp3.1\Asyncronus.runtimeconfig.json
+C:\Users\parja\source\repos\Asyncronus\bin\Debug\netcoreapp3.1\Asyncronus.runtimeconfig.dev.json
+C:\Users\parja\source\repos\Asyncronus\bin\Debug\netcoreapp3.1\Asyncronus.dll
+C:\Users\parja\source\repos\Asyncronus\bin\Debug\netcoreapp3.1\Asyncronus.pdb
+C:\Users\parja\source\repos\Asyncronus\obj\Debug\netcoreapp3.1\Asyncronus.csprojAssemblyReference.cache
+C:\Users\parja\source\repos\Asyncronus\obj\Debug\netcoreapp3.1\Asyncronus.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\Asyncronus\obj\Debug\netcoreapp3.1\Asyncronus.AssemblyInfo.cs
+C:\Users\parja\source\repos\Asyncronus\obj\Debug\netcoreapp3.1\Asyncronus.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\Asyncronus\obj\Debug\netcoreapp3.1\Asyncronus.dll
+C:\Users\parja\source\repos\Asyncronus\obj\Debug\netcoreapp3.1\Asyncronus.pdb
+C:\Users\parja\source\repos\Asyncronus\obj\Debug\netcoreapp3.1\Asyncronus.genruntimeconfig.cache
