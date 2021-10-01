@@ -1,0 +1,142 @@
+.contact {
+  background: url(../images/breadcrumb/aashiesh-anand-rIhLgcV7MVc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.sub-head h2 {
+  font-size: 22px;
+  color: var(--white-color);
+}
+
+.contact ol.breadcrumb {
+  background: 0 0;
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.contact .sub-head {
+  padding: 50px 120px;
+}
+
+.contact ol.breadcrumb li a {
+  color: var(--white-color);
+}
+
+.contact ol.breadcrumb li a:hover {
+  text-decoration: none !important;
+  color: #d1d1df;
+}
+
+.contact .breadcrumb>li+li:before {
+  padding: 0 5px;
+  color: #ccc;
+  content: "- ";
+}
+
+.left-border {
+  position: relative;
+  padding-left: 28px;
+  font-size: 16px;
+}
+
+.left-border:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--secondary-color);
+  height: 2px;
+  width: 16px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.64rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.sub-head-title {
+  padding-left: 40px;
+}
+
+.sub-head-title h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--black-color);
+}
+
+.box-shadow-1 {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 24px;
+}
+
+.icon span {
+  color: var(--black-color);
+}
+
+.content h4 {
+  font-size: 18px;
+}
+
+.content h5 {
+  font-size: 15px;
+}
+
+label {
+  color: var(--black-color);
+}
+
+.enquiry {
+  font-size: 14px;
+  font-weight: 300;
+  float: left;
+  background: var(--primary-color);
+  color: var(--white-color);
+  border: 1px solid var(--primary-color);
+  font-weight: 400;
+  padding: 4px 20px;
+}
+
+.enquiry:hover {
+  background: var(--white-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.border-rightside {
+  border-right: 1px solid #ced4da;
+}
+
+@media (max-width: 1025px) {
+  .contact .sub-head {
+    padding: 35px 45px;
+  }
+}
+
+@media (max-width: 769px) {
+  .border-rightside {
+    border-right: none;
+  }
+}

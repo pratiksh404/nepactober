@@ -1,0 +1,251 @@
+.travel-detail {
+    margin-top: 4rem;
+}
+
+.nav-tabs .nav-item a {
+    color: var(--primary-color);
+}
+
+.place-name h2 {
+    font-size: 26px;
+    margin-left: -13px;
+    position: relative;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.place-name h2:after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 40px;
+    left: 0;
+}
+
+.package-img img {
+    height: 23rem;
+    object-fit: fill;
+}
+
+.package-img .owl-nav {
+    display: none;
+}
+
+.package-img .owl-theme .owl-dots .owl-dot span {
+    width: 35px;
+    height: 1px;
+    margin: 5px 7px;
+    background: #D6D6D6;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+
+.package-img .owl-dots {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+}
+
+.tour-information .title {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.days-nights {
+    font-size: 18px;
+}
+
+.tour-price p {
+    font-weight: bold;
+}
+
+.tour-operator,
+.age,
+.tour,
+.group-size {
+    width: 140px;
+}
+
+.tour-price .Money {
+    font-size: 28px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.place-detail {
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    margin-top: 1rem;
+}
+
+.place-detail p {
+    text-align: justify;
+    font-size: 14px;
+}
+
+.outline {
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    margin-top: 1rem;
+}
+
+.outline h4 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.outline .day {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+.outline .further-detail p {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.cost-amount {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 1rem;
+}
+
+.btn-1 {
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+}
+
+.btn-1:hover {
+    border: 1px solid var(--secondary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    color: var(--white-color);
+}
+
+.cost-include-heading i {
+    color: var(--tertiary-color);
+}
+
+.cost-include-heading h4,
+.cost-exclude-heading h4 {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.cost-include-heading {
+    border-right: 1px solid #ccc;
+}
+
+.gallery-title h4 {
+    position: relative;
+}
+
+.gallery-title h4:after {
+    content: "";
+    width: 45px;
+    height: 3px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+
+.card-main img {
+    height: 240px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-main img:hover {
+    opacity: 0.5;
+    transition: 0.5s ease-out;
+}
+
+.nav-tabs>li>a.active {
+    background-color: var(--primary-color) !important;
+    color: var(--white-color) !important;
+}
+
+.nav-tabs>li>a:hover {
+    color: #fff !important;
+    background-color: var(--secondary-color);
+}
+
+.nav-link-color {
+    color: var(--primary-color);
+}
+
+.nav-tabs li a {
+    font-size: 16px;
+    padding: 15px;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    position: relative;
+
+}
+
+.nav-tabs>li>a.active:hover:after,
+.package-detail .nav-tabs>li>a:focus:after {
+    display: none;
+}
+
+/* 
+.nav-tabs>li>a.active:before,
+.package-detail .nav-tabs>li>a:focus:before {
+    position: absolute;
+    top: -10px;
+    content: '';
+    left: 0;
+    right: 0;
+    display: inline-block;
+    background-color: var(--primary-color);
+    height: 20px;
+} */
+
+
+
+/* .nav-tabs>li>a:hover:before,
+.package-detail .nav-tabs>li>a:focus:before {
+    position: absolute;
+    top: -10px;
+    content: '';
+    left: 0;
+    right: 0;
+    display: inline-block;
+    background-color: var(--secondary-color);
+    height: 20px;
+} */
+
+
+.nav-tabs>li>a:hover:after,
+.package-detail .nav-tabs>li>a:focus:after {
+    position: absolute;
+    top: 100%;
+    content: '';
+    display: inline-block;
+    left: 50%;
+    margin-left: -8px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid var(--secondary-color);
+}
+
+#photos {
+    margin-top: 2rem;
+    padding: 25px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#cost {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
