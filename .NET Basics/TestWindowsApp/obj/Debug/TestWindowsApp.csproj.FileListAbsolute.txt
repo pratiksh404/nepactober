@@ -1,0 +1,10 @@
+C:\Users\parja\source\repos\TestWindowsApp\bin\Debug\TestWindowsApp.exe.config
+C:\Users\parja\source\repos\TestWindowsApp\bin\Debug\TestWindowsApp.exe
+C:\Users\parja\source\repos\TestWindowsApp\bin\Debug\TestWindowsApp.pdb
+C:\Users\parja\source\repos\TestWindowsApp\obj\Debug\TestWindowsApp.csprojAssemblyReference.cache
+C:\Users\parja\source\repos\TestWindowsApp\obj\Debug\TestWindowsApp.Form1.resources
+C:\Users\parja\source\repos\TestWindowsApp\obj\Debug\TestWindowsApp.Properties.Resources.resources
+C:\Users\parja\source\repos\TestWindowsApp\obj\Debug\TestWindowsApp.csproj.GenerateResource.cache
+C:\Users\parja\source\repos\TestWindowsApp\obj\Debug\TestWindowsApp.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\TestWindowsApp\obj\Debug\TestWindowsApp.exe
+C:\Users\parja\source\repos\TestWindowsApp\obj\Debug\TestWindowsApp.pdb
