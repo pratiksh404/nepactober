@@ -1,0 +1,13 @@
+C:\Users\parja\source\repos\Partial Class Demo\bin\Debug\netcoreapp3.1\Partial Class Demo.exe
+C:\Users\parja\source\repos\Partial Class Demo\bin\Debug\netcoreapp3.1\Partial Class Demo.deps.json
+C:\Users\parja\source\repos\Partial Class Demo\bin\Debug\netcoreapp3.1\Partial Class Demo.runtimeconfig.json
+C:\Users\parja\source\repos\Partial Class Demo\bin\Debug\netcoreapp3.1\Partial Class Demo.runtimeconfig.dev.json
+C:\Users\parja\source\repos\Partial Class Demo\bin\Debug\netcoreapp3.1\Partial Class Demo.dll
+C:\Users\parja\source\repos\Partial Class Demo\bin\Debug\netcoreapp3.1\Partial Class Demo.pdb
+C:\Users\parja\source\repos\Partial Class Demo\obj\Debug\netcoreapp3.1\Partial Class Demo.csprojAssemblyReference.cache
+C:\Users\parja\source\repos\Partial Class Demo\obj\Debug\netcoreapp3.1\Partial Class Demo.AssemblyInfoInputs.cache
+C:\Users\parja\source\repos\Partial Class Demo\obj\Debug\netcoreapp3.1\Partial Class Demo.AssemblyInfo.cs
+C:\Users\parja\source\repos\Partial Class Demo\obj\Debug\netcoreapp3.1\Partial Class Demo.csproj.CoreCompileInputs.cache
+C:\Users\parja\source\repos\Partial Class Demo\obj\Debug\netcoreapp3.1\Partial Class Demo.dll
+C:\Users\parja\source\repos\Partial Class Demo\obj\Debug\netcoreapp3.1\Partial Class Demo.pdb
+C:\Users\parja\source\repos\Partial Class Demo\obj\Debug\netcoreapp3.1\Partial Class Demo.genruntimeconfig.cache
