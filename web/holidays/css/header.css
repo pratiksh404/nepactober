@@ -1,0 +1,276 @@
+/*=========
+  MY BTN 
+  ==========*/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  color: #fff;
+  background: var(--primary-color);
+  padding: 10px;
+}
+
+#myBtn:hover {
+  background: var(--white-color);
+  color: #021741;
+  border: 1px solid var(--primary-color);
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  background: var(--secondary-color);
+  color: var(--white-color);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--black-color);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+  background: var(--secondary-color);
+  display: inline-block;
+}
+
+/* TOP HEADER */
+.header {
+  padding: 1rem 0;
+}
+
+.bg-wrapper {
+  background: var(--primary-color);
+}
+
+.header-info ul li {
+  display: inline-block;
+  color: var(--white-color);
+  font-size: 12px;
+  padding: 0px 10px;
+}
+
+.contact-info {
+  display: inline-block;
+  font-size: 35px;
+  letter-spacing: 0.5px;
+  margin-top: -7px;
+}
+
+.contact-info i {
+  color: var(--white-color);
+}
+
+.contact-info ul li:hover {
+  background: var(--secondary-color);
+}
+
+.contact-info li a {
+  color: var(--white-color);
+}
+
+.contact-info li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.contact-info li a:hover {
+  text-decoration: none;
+}
+
+.social-media {
+  margin-top: -6px;
+  text-align: right;
+}
+
+.social-media i {
+  margin-top: 15px;
+  display: inline-block;
+  color: white;
+}
+
+.social-media li span {
+  color: var(--white-color);
+}
+
+.social-media li a:hover i {
+  text-decoration: none;
+}
+
+.social-media li a:hover span {
+  text-decoration: none;
+}
+
+.header-info .contact-info {
+  flex-grow: 1;
+}
+
+.social-media li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* TOP HEADER */
+.search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem 0px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search-bar .search-addon,
+.search-bar input,
+.search-bar button {
+  border-radius: 0;
+  height: 3rem;
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.search-bar .search-addon {
+  background: #eee;
+  line-height: 3rem;
+  width: 5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #777;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.search-bar input {
+  background: #eee;
+  width: calc(85% - 4.5rem);
+  color: #333;
+}
+
+.search-bar button {
+  text-transform: uppercase;
+  background: var(--primary-color);
+  width: 15%;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.list-unstyled li a {
+  color: var(--primary-color);
+}
+
+.list-unstyled li a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.support img {
+  width: 70px;
+}
+
+.list-unstyled {
+  margin-left: 15px;
+}
+
+.side-listing li,
+.side-listing li i {
+  color: var(--primary-color);
+}
+
+/*****************
+    NAVBAR
+    **************** */
+.navbar {
+  height: auto;
+  width: 100%;
+  padding: 0px;
+  justify-content: space-around;
+}
+
+.navbar img {
+  width: 170px;
+  padding: 1rem
+}
+
+.header-wrapper.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 0 4px;
+}
+
+.navbar a {
+  color: black !important;
+  font-size: 14px;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+  color: white !important;
+  font-weight: 400;
+}
+
+.nav-link {
+  margin-right: 10px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.nav-item a:hover {
+  color: var(--primary-color) !important;
+}
+
+.nav-item .dropdown-menu {
+  background-color: var(--primary-color) !important;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  transition: ease 0.4s;
+}
+
+.nav-item:hover .dropdown-menu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav-item .dropdown-menu a:hover {
+  background-color: var(--tertiary-color) !important;
+  color: #fff !important;
+}
+
+.enquiry {
+  font-size: 14px;
+  font-weight: 300;
+  float: left;
+  background: #203F7E;
+  color: #fff;
+  border: 1px solid #203F7E;
+  font-weight: 400;
+  padding: 4px 20px;
+}
+
+.enquiry:hover {
+  background: #fff;
+  color: #203F7E;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.dropdown-toggle::after {
+  transition: transform 0.5s linear;
+}
+
+.show.dropdown .dropdown-toggle::after {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  margin-top: 0;
+}
