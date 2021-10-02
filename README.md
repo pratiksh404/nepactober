@@ -1,6 +1,6 @@
-# HACTOBERFEST2020
+# HACTOBERFEST2021
 
-![hack](https://user-images.githubusercontent.com/48166328/94787275-ba253600-03ef-11eb-8822-6b34943e9104.jpeg)
+![hack](https://res.cloudinary.com/practicaldev/image/fetch/s--O2T44XS---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d28trg1gk39cxe8iulbb.png)
 
 ## Make Open source contributions, and be a part of Hactoberfest to win a t-shirt and goodies.
 
