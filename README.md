@@ -2,9 +2,9 @@
 
 ![hack](https://user-images.githubusercontent.com/48166328/94787275-ba253600-03ef-11eb-8822-6b34943e9104.jpeg)
 
-## Make Open source contribution and be part of hactoberfest, win tShort and goodies
+## Make Open source contributions, and be a part of Hactoberfest to win a t-shirt and goodies.
 
-This repo is made with an objective to encourage Nepalese dev on open source contribution and to be part of hactoberfest.
+This repo is made with an objective to encourage Nepalese dev on open source contribution and to be part of Hactoberfest.
 
 # About HactoberFest
 
