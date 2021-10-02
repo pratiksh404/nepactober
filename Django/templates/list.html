@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<table>
+	<thead>
+		<th>Fullname</th>
+		<th>Email</th>
+		<th>Phone No.</th>
+		<th>Position</th>
+	</thead>
+	<tbody>		
+{% for e in employee %}
+{{e.fullname}}
+{% endfor %}
+	</tbody>
+</table>
+{% endblock %}
