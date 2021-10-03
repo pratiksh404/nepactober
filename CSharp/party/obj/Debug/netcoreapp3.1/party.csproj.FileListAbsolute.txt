@@ -1,0 +1,13 @@
+D:\dotnet\console\party\bin\Debug\netcoreapp3.1\party.exe
+D:\dotnet\console\party\bin\Debug\netcoreapp3.1\party.deps.json
+D:\dotnet\console\party\bin\Debug\netcoreapp3.1\party.runtimeconfig.json
+D:\dotnet\console\party\bin\Debug\netcoreapp3.1\party.runtimeconfig.dev.json
+D:\dotnet\console\party\bin\Debug\netcoreapp3.1\party.dll
+D:\dotnet\console\party\bin\Debug\netcoreapp3.1\party.pdb
+D:\dotnet\console\party\obj\Debug\netcoreapp3.1\party.csprojAssemblyReference.cache
+D:\dotnet\console\party\obj\Debug\netcoreapp3.1\party.AssemblyInfoInputs.cache
+D:\dotnet\console\party\obj\Debug\netcoreapp3.1\party.AssemblyInfo.cs
+D:\dotnet\console\party\obj\Debug\netcoreapp3.1\party.csproj.CoreCompileInputs.cache
+D:\dotnet\console\party\obj\Debug\netcoreapp3.1\party.dll
+D:\dotnet\console\party\obj\Debug\netcoreapp3.1\party.pdb
+D:\dotnet\console\party\obj\Debug\netcoreapp3.1\party.genruntimeconfig.cache
