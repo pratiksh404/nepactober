@@ -1,0 +1,13 @@
+D:\dotnet\console\sales\bin\Debug\netcoreapp3.1\sales.exe
+D:\dotnet\console\sales\bin\Debug\netcoreapp3.1\sales.deps.json
+D:\dotnet\console\sales\bin\Debug\netcoreapp3.1\sales.runtimeconfig.json
+D:\dotnet\console\sales\bin\Debug\netcoreapp3.1\sales.runtimeconfig.dev.json
+D:\dotnet\console\sales\bin\Debug\netcoreapp3.1\sales.dll
+D:\dotnet\console\sales\bin\Debug\netcoreapp3.1\sales.pdb
+D:\dotnet\console\sales\obj\Debug\netcoreapp3.1\sales.csprojAssemblyReference.cache
+D:\dotnet\console\sales\obj\Debug\netcoreapp3.1\sales.AssemblyInfoInputs.cache
+D:\dotnet\console\sales\obj\Debug\netcoreapp3.1\sales.AssemblyInfo.cs
+D:\dotnet\console\sales\obj\Debug\netcoreapp3.1\sales.csproj.CoreCompileInputs.cache
+D:\dotnet\console\sales\obj\Debug\netcoreapp3.1\sales.dll
+D:\dotnet\console\sales\obj\Debug\netcoreapp3.1\sales.pdb
+D:\dotnet\console\sales\obj\Debug\netcoreapp3.1\sales.genruntimeconfig.cache

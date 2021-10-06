@@ -1,0 +1,13 @@
+D:\dotnet\console\electricity_bill\bin\Debug\netcoreapp3.1\electricity_bill.exe
+D:\dotnet\console\electricity_bill\bin\Debug\netcoreapp3.1\electricity_bill.deps.json
+D:\dotnet\console\electricity_bill\bin\Debug\netcoreapp3.1\electricity_bill.runtimeconfig.json
+D:\dotnet\console\electricity_bill\bin\Debug\netcoreapp3.1\electricity_bill.runtimeconfig.dev.json
+D:\dotnet\console\electricity_bill\bin\Debug\netcoreapp3.1\electricity_bill.dll
+D:\dotnet\console\electricity_bill\bin\Debug\netcoreapp3.1\electricity_bill.pdb
+D:\dotnet\console\electricity_bill\obj\Debug\netcoreapp3.1\electricity_bill.csprojAssemblyReference.cache
+D:\dotnet\console\electricity_bill\obj\Debug\netcoreapp3.1\electricity_bill.AssemblyInfoInputs.cache
+D:\dotnet\console\electricity_bill\obj\Debug\netcoreapp3.1\electricity_bill.AssemblyInfo.cs
+D:\dotnet\console\electricity_bill\obj\Debug\netcoreapp3.1\electricity_bill.csproj.CoreCompileInputs.cache
+D:\dotnet\console\electricity_bill\obj\Debug\netcoreapp3.1\electricity_bill.dll
+D:\dotnet\console\electricity_bill\obj\Debug\netcoreapp3.1\electricity_bill.pdb
+D:\dotnet\console\electricity_bill\obj\Debug\netcoreapp3.1\electricity_bill.genruntimeconfig.cache

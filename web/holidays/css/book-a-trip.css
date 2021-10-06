@@ -1,0 +1,92 @@
+.trip-name h2 {
+    color: var(--primary-color);
+    position: relative;
+    font-size: 26px;
+}
+
+.trip-name h2:after {
+    content: '';
+    width: 80px;
+    height: 3px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 35px;
+    left: 0%;
+}
+
+.book-form {
+    border: 1px solid #ccc;
+    padding: 35px 45px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    margin-top: 2rem;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #595c5d;
+    resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+input[type=phone] {
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.book-form .book-button {
+    margin-left: 9.5rem;
+    margin-top: 2rem;
+}
+
+.text-right h3 {
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

@@ -1,10 +1,10 @@
-# HACTOBERFEST2020
+# HACTOBERFEST2021
 
-![hack](https://user-images.githubusercontent.com/48166328/94787275-ba253600-03ef-11eb-8822-6b34943e9104.jpeg)
+![hack](https://res.cloudinary.com/practicaldev/image/fetch/s--O2T44XS---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d28trg1gk39cxe8iulbb.png)
 
-## Make Open source contribution and be part of hactoberfest, win tShort and goodies
+## Make Open source contributions, and be a part of Hactoberfest to win a t-shirt and goodies.
 
-This repo is made with an objective to encourage Nepalese dev on open source contribution and to be part of hactoberfest.
+This repo is made with an objective to encourage Nepalese dev on open source contribution and to be part of Hactoberfest.
 
 # About HactoberFest
 
@@ -16,7 +16,7 @@ You can sign up anytime between October 1 and October 31.
 
 Let's make a contribution to this repository.
 
-<p><a href="https://hacktoberfest.digitalocean.com?wvideo=rrnq2hxoso"><img src="https://embed-fastly.wistia.com/deliveries/49bd387c40e2c5aada92abdf973bc46d.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=1e71e7e0" width="800" height="600" style="width: 800px; height: 400px;"></a></p><p><a href="https://hacktoberfest.digitalocean.com?wvideo=rrnq2hxoso">Hacktoberfest presented by DigitalOcean</a></p>
+<p><a href="https://hacktoberfest.digitalocean.com?wvideo=rrnq2hxoso"><img src="https://github.com/pratiksh404/nepactober/blob/main/guide_video.jpg" width="800" height="600" style="width: 800px; height: 400px;"></a></p><p><a href="https://hacktoberfest.digitalocean.com?wvideo=rrnq2hxoso">Hacktoberfest presented by DigitalOcean</a></p>
 
 # Contribution guideline
 

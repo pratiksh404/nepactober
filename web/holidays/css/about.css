@@ -1,0 +1,281 @@
+.aboutus {
+    background: url(../images/breadcrumb/aashiesh-anand-rIhLgcV7MVc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.sub-head h2 {
+    font-size: 22px;
+    color: var(--white-color);
+}
+
+.aboutus ol.breadcrumb {
+    background: 0 0;
+    border: none;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutus .sub-head {
+    padding: 50px 120px;
+}
+
+.aboutus ol.breadcrumb li a {
+    color: var(--white-color);
+}
+
+.aboutus ol.breadcrumb li a:hover {
+    text-decoration: none !important;
+    color: #d1d1df;
+}
+
+.aboutus .breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "- ";
+}
+
+
+/* ABOUT-INFO STARTS */
+.about-title h2 {
+    position: relative;
+}
+
+.about-title h2:after {
+    content: '';
+    width: 90px;
+    height: 3px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 40px;
+    left: 0%;
+}
+
+.about-info {
+    margin-top: 5rem;
+}
+
+.about-title h2 {
+    margin-bottom: 2rem;
+}
+
+.about-title p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.about-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 355px;
+}
+
+/* ABOUT-INFO ENDS */
+
+/* MESSAGE FROM */
+.message-from {
+    margin-top: 5rem;
+    padding: 4rem 0;
+}
+
+.about-image img {
+    object-fit: cover;
+    width: 100%;
+    height: 370px;
+}
+
+.message h2 {
+    position: relative;
+}
+
+.message h2:after {
+    content: '';
+    width: 90px;
+    height: 3px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 40px;
+    left: 0%;
+}
+
+.message h2 {
+    margin-bottom: 2rem;
+}
+
+.message p {
+    font-size: 15px;
+    text-align: justify;
+}
+
+/* OUR TEAM */
+.stuff-box {
+    padding: 70px 0px;
+}
+
+.heading-title {
+    position: relative;
+}
+
+.heading-title:after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: var(--primary-color);
+    position: absolute;
+    top: 45px;
+}
+
+.pic {
+    margin-top: 3rem;
+}
+
+.our-team {
+    text-align: center;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 30px;
+}
+
+.our-team:hover {
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.our-team .pic {
+    overflow: hidden;
+    position: relative;
+}
+
+.our-team .pic:before,
+.our-team .pic:after {
+    content: "";
+    width: 200%;
+    height: 80%;
+    background: rgba(38, 37, 37, 0.8);
+    position: absolute;
+    top: -100%;
+    left: -4%;
+    transform: rotate(45deg);
+    transition: all 0.5s ease 0s;
+}
+
+.our-team .pic:after {
+    background: var(--light-primary);
+    top: auto;
+    left: auto;
+    bottom: -100%;
+    right: -4%;
+}
+
+.our-team:hover .pic:before {
+    top: 0;
+}
+
+.our-team:hover .pic:after {
+    bottom: 0;
+}
+
+.our-team .pic img {
+    width: 100%;
+    height: auto;
+}
+
+.our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    opacity: 0;
+    z-index: 2;
+    transition: all 0.5s ease 0.3s;
+}
+
+.our-team:hover .social {
+    opacity: 1;
+}
+
+.our-team .social li {
+    display: inline-block;
+}
+
+.our-team .social li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.our-team .social li a:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 0 20px 20px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease 0s;
+}
+
+.our-team .social li a:hover:after {
+    transform: rotate(180deg);
+}
+
+.our-team .team-content {
+    padding: 20px;
+}
+
+.our-team .title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--primary-color);
+    margin-bottom: 7px;
+}
+
+.our-team .post {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #333333;
+    text-transform: capitalize;
+}
+
+
+/* MESSAGE FROM ENDS*/
+
+@media(max-width: 1025px) {
+    .about-image img {
+        margin-top: 2rem;
+    }
+
+    .message {
+        margin-top: 2.5rem;
+    }
+}
+
+@media(max-width:769px) {
+    .aboutus .sub-head {
+        padding: 50px 35px;
+    }
+
+}
+
+@media(max-width:426px) {
+    .aboutus .sub-head {
+        padding: 50px 15px;
+    }
+}

@@ -1,0 +1,13 @@
+D:\dotnet\console\salary\bin\Debug\netcoreapp3.1\salary.exe
+D:\dotnet\console\salary\bin\Debug\netcoreapp3.1\salary.deps.json
+D:\dotnet\console\salary\bin\Debug\netcoreapp3.1\salary.runtimeconfig.json
+D:\dotnet\console\salary\bin\Debug\netcoreapp3.1\salary.runtimeconfig.dev.json
+D:\dotnet\console\salary\bin\Debug\netcoreapp3.1\salary.dll
+D:\dotnet\console\salary\bin\Debug\netcoreapp3.1\salary.pdb
+D:\dotnet\console\salary\obj\Debug\netcoreapp3.1\salary.csprojAssemblyReference.cache
+D:\dotnet\console\salary\obj\Debug\netcoreapp3.1\salary.AssemblyInfoInputs.cache
+D:\dotnet\console\salary\obj\Debug\netcoreapp3.1\salary.AssemblyInfo.cs
+D:\dotnet\console\salary\obj\Debug\netcoreapp3.1\salary.csproj.CoreCompileInputs.cache
+D:\dotnet\console\salary\obj\Debug\netcoreapp3.1\salary.dll
+D:\dotnet\console\salary\obj\Debug\netcoreapp3.1\salary.pdb
+D:\dotnet\console\salary\obj\Debug\netcoreapp3.1\salary.genruntimeconfig.cache
