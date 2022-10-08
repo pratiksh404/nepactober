@@ -1,91 +1,76 @@
-# HACTOBERFEST2021
+ 
 
-![hack](https://res.cloudinary.com/practicaldev/image/fetch/s--O2T44XS---/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d28trg1gk39cxe8iulbb.png)
+#                                                    Hacktoberfest2022
+![image](https://user-images.githubusercontent.com/99472914/192144059-5cd0b329-f238-474b-b475-7385eaa35d05.png)
 
-## Make Open source contributions, and be a part of Hactoberfest to win a t-shirt and goodies.
+ 
 
-This repo is made with an objective to encourage Nepalese dev on open source contribution and to be part of Hactoberfest.
+[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/sj5027052/Hacktoberfest2022)
 
-# About HactoberFest
+ 
 
-Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge.
+<h4> You can make folders of programming languages and also you can contribute in the repo's below.</h4>
 
-Hacktoberfest is a celebration open to everyone in our global community.
-Pull requests can be made in participating GitHub-hosted repositories/projects, classified with the Hacktoberfest topic.
-You can sign up anytime between October 1 and October 31.
+<h4> Feel free to contribute to this repo by creating and editing little programs in any programming language and make different folders for the code you want to contribute. </h4>
 
-Let's make a contribution to this repository.
+If you want to practice to make a pull request, follow the CONTRIBUTING.md
 
-<p><a href="https://hacktoberfest.digitalocean.com?wvideo=rrnq2hxoso"><img src="https://github.com/pratiksh404/nepactober/blob/main/guide_video.jpg" width="800" height="600" style="width: 800px; height: 400px;"></a></p><p><a href="https://hacktoberfest.digitalocean.com?wvideo=rrnq2hxoso">Hacktoberfest presented by DigitalOcean</a></p>
+ 
 
-# Contribution guideline
+Check out `good-first-issues` for contributing [here](https://github.com/sj5027052/Hacktoberfest2022/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+</div>
 
-- If you are contributing notes, place it under its specified domain.
-- If you are contributing algorithm programs, place it under algorithm folder.
-- If you are contributing specific program, place it under program folder
-- If you are contributing designs, place it under design folder.
+<br>
 
-## Note
+ 
 
-Before you start you must register in hactoberfest and contribution must be code to be counted as valid PR.
+### Author
 
-Let me show you how easy it is:
+* **Saloni Malaiya**
+* [Twitter](https://twitter.com/Saloni18312589)
+* [GitHub](https://github.com/sj5027052)
 
-## 1. Fork this repository
 
-Fork this repository by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
+ 
+### Contributing
 
----
+Please read [CONTRIBUTING.md](/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](/CODE_OF_CONDUCT.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## 2. Clone the repository
+### Rules
 
-Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the clone button and then click the _copy to clipboard_ icon.  
-Now let's bring the cloned repository to your local machine.  
-`git clone <url-you-just-copied>`  
-For example:  
-` git clone https://github.com/pratiksh404/nepactober.git`
+* Read the [CONTRIBUTING.md](/CONTRIBUTING.md) file.
+* Respect people.
+* Be friendly, helpful, and patient.
+* You can contribute in any way.
 
----
+### Support
 
-## 3. Move inside the repository
+If you like this project, please consider supporting it by giving it a ⭐️. It will help us to grow and improve this project and help others to find it.
 
-Since you want to change the files inside, first let's move to the folder correctly. Use the following command on terminal:  
-`cd nepactober`
+### Conclusion
 
----
+- Happy Contributing! 🎉 
+- May you have a great Hacktoberfest 2022! 🎉
+- If you have any questions, feel free to ask me. I will be happy to help you. 😊
 
-## 4. Make a new branch
+### References
 
-Since now you're about to make your personal changes to the project, it's always a better idea to make a new branch. Run the following command:
+- [Hacktoberfest 2022](https://hacktoberfest.digitalocean.com)
+- [Hacktoberfest 2022 Participation Guidelines](https://hacktoberfest.com/participation)
 
-`git checkout -b <branch_name>`  
-For example:  
-`git checkout -b new_branch`
+<br>
 
----
+- This project and other projects listed above are a part of Hacktoberfest 2022 and are open to all members of the GitHub community. Any member may contribute to these projects without being a collaborator or a maintainer and earn a T-shirt from DigitalOcean and DEV by making four valid pull requests (PRs) between October 1-31 (in any time zone).
 
-## 6. Commit all your changes
+- The first 40,000 participants (maintainers and contributors) who complete Hacktoberfest can elect to receive one of two prizes: a tree planted in their name, or the Hacktoberfest 2022 t-shirt.
 
-It's finally that time when you commit your changes and leave a beautiful commit message behind. You can run the following commands:
+**✨ Thanks goes to these wonderful people ✨**
 
-`git add .`  
-`git commit -m "<Message>"`  
-For example:  
-`git commit -m "Added a script"`
+## License
 
-Finally, push your changes to Github:  
-To do so run the following command:
+**This project is licensed under the GNU GENERAL PUBLIC License - see the [LICENSE](/LICENSE) file for details**
 
-`git push origin <your-branch-name>`  
-For example:  
-`git push origin branch_name`
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0)
 
----
-
-## 7. Hit us a pull request
-
-If you go to your repository on GitHub, you'll see a Compare & pull request button. Click on that button.
-Now submit the pull request. Leave a custom message if you want.
-
----
+ 
+ 
