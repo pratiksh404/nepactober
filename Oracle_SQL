@@ -1,0 +1,37 @@
+# CREATING TABLES
+create table SAILORS (SID number(3) constraint cons_sail_pk primary key, SNAME varchar2(20) constraint sail_sname_ck check (substr(SNAME,1,1) = upper(substr(SNAME,1,1))), RATING number(3) constraint sail_rating_ck check (RATING>=1 and RATING<=10), AGE number(5,2) constraint sail_age_ck check (AGE>18));
+create table BOATS (BID number(3) constraint cons_boat_pk primary key, BNAME varchar2(10) not null,COLOR varchar2(10) constraint boat_color_ck check(COLOR in ('Blue', 'Red', 'Green', 'Yellow')));
+create table RESERVES (SID number(3), BID number(3), DAY date not null, constraint cons_res_pk primary key(SID, BID), constraint cons_sail_fk foreign key(SID) references SAILORS on delete cascade,constraint cons_boat_fk foreign key(BID) references BOATS on delete cascade);
+
+# INSERTING VALUES
+insert into SAILORS values (22, 'Dustin', 7, 45);
+insert into SAILORS values (29, 'Brutus', 1, 33);
+insert into SAILORS values (31, 'Lubber', 8, 55.5);
+insert into SAILORS values (32, 'Andy', 8, 25.5);
+insert into SAILORS values (58, 'Rusty', 10, 35);
+insert into SAILORS values (64, 'Horatio', 7, 35);
+insert into SAILORS values (71, 'Zorba', 10, 19);
+insert into SAILORS values (74, 'Horatio', 9, 35);
+insert into SAILORS values (85, 'Art', 3, 25.5);
+insert into SAILORS values (95, 'Bob', 3, 63.5);
+
+insert into BOATS values (101, 'Interlake', 'Blue');
+insert into BOATS values (102, 'Interlake', 'Red');
+insert into BOATS values (103, 'Clipper', 'Green');
+insert into BOATS values (104, 'Marine', 'Red');
+
+insert into RESERVES values (22, 101, '10-Oct-98');
+insert into RESERVES values (22, 102, '10-Oct-98');
+insert into RESERVES values (22, 103, '10-Aug-98');
+insert into RESERVES values (22, 104, '10-Jul-98');
+insert into RESERVES values (31, 102, '11-Oct-98');
+insert into RESERVES values (31, 103, '11-Jun-98');
+insert into RESERVES values (31, 104, '11-Dec-98');
+insert into RESERVES values (64, 101, '9-May-98');
+insert into RESERVES values (64, 102, '9-Aug-98');
+insert into RESERVES values (74, 103, '9-Aug-98');
+
+# SAMPLE QUERIES
+select substr(SNAME,1,4), AGE from SAILORS;
+select * from SAILORS where RATING>7;
+select SNAME from SAILORS S, RESERVES R where S.SID=R.SID and R.BID=103;
