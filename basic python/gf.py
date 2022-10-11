@@ -1,0 +1,6 @@
+m1=float(input("enter the first mass of body:"))
+m2=float(input("enter second mass of body:"))
+r=float(input("enter the distance betn them(radius)"))
+G=6.67*(10**-11)
+f=(G*m1*m2)/(r**2)
+print("hence, the gravitational force is:",round(f,2),"N")

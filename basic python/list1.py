@@ -1,0 +1,15 @@
+list1=['a','b','c']
+list2=['x','y','z']
+#list1.reverse()
+#print(list1)
+#list1.sort(reverse=True)
+#list3=list1[2:]+list2[:2]
+#print(list1)
+#list1.remove('c')
+#list1.append('z')
+#print(list1)
+#list2.remove('z')
+#list2.append('c')
+#print(list2)
+#print(dir(list1))
+list1.clear()
