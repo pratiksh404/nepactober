@@ -1,0 +1,99 @@
+
+#box{
+    border: black solid 2px;
+    height: 80vh;
+    width: 30vw;
+    margin-top: 5%;
+    margin-left: 30%;
+    position: relative;
+    overflow:hidden;
+}
+#first-page{
+    background-color: #2191ef;
+    height: 80vh;
+    width: 30vw;
+}
+.hidden{
+    visibility: hidden;
+}
+#btn1{
+    position: absolute;
+    bottom: 1%;
+    left: 16%;
+    height: 10%;
+    width: 65%;
+    font-size: larger;
+    background-color: coral;
+    color: whitesmoke;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 3%;
+    cursor: pointer;
+}
+input{
+    position: absolute;
+    bottom: 12%;
+    height: 8%;
+    width: 82%;
+    left: 7%;
+    font-size: larger;
+    border-radius: 2%;
+}
+h1{
+    text-align: center;
+    margin-top: 0%;
+}
+img{
+    margin-left: 32%;
+    margin-top: 22%;
+}
+
+nav{
+    background-color: #2191ef;
+    position: absolute;
+    top: 0%;
+    height: 12%;
+    width: 100%;
+    z-index: 1;
+}
+#back{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#logo{
+    height: 70px;
+    position: absolute;
+    top: -145%;
+    right: 0%;
+}
+#chat_box{
+    position: absolute;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    bottom: 2%;
+    left: 2%;
+}
+.ans{
+    color: white;
+    background-color: #2191ef;
+    font-size: large;
+    height: 50px;
+    width: max-content;
+    border: transparent;
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-bottom: 1%;
+    cursor: pointer;
+}
+.submit{
+    width: 150px;
+    border-radius: 0%;
+}
