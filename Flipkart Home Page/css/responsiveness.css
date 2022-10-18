@@ -1,0 +1,33 @@
+    @media screen and (max-width:1000px) {
+        header {
+            height: 150px;
+        }
+        nav {
+            flex-direction: column;
+        }
+        .logo {
+            justify-content: center;
+            margin: 12px 0;
+        }
+        nav ul {
+            justify-content: center;
+        }
+        .search {
+            justify-content: center;
+        }
+        .search input {
+            margin: 0 12px 0 16px;
+        }
+        .slider img {
+            height: 50vh;
+        }
+    }
+    
+    @media screen and (max-width:500px) {
+        .slider img {
+            height: 35vh;
+        }
+        .slider {
+            margin: 12px auto;
+        }
+    }

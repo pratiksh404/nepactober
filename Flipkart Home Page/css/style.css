@@ -1,0 +1,119 @@
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                     :root {
+                        --main-bg-color: #2874f0;
+                    }
+                    
+                    header {
+                        height: 60px;
+                        background-color: var(--main-bg-color);
+                        color: white;
+                    }
+                    
+                    nav {
+                        display: flex;
+                    }
+                    
+                    .logo {
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    .logo img {
+                        width: 88px;
+                        padding: 0 25px;
+                    }
+                    
+                    nav ul {
+                        height: 60px;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                    }
+                    
+                    nav ul li {
+                        list-style: none;
+                        padding: 0 20px;
+                    }
+                    
+                    nav ul li a {
+                        color: white;
+                        text-decoration: none;
+                    }
+                    
+                    nav ul li a:hover {
+                        /*color: rgb(161, 201, 229);*/
+                        font-weight: bold;
+                    }
+                    
+                    .search {
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    .search input {
+                        width: 30vw;
+                        height: 20px;
+                        border-radius: 3px;
+                        margin: 0 12px 0 56px;
+                        padding: 0 12px;
+                    }
+                    
+                    .btn {
+                        padding: 4px 10px;
+                        border-radius: 5px;
+                        color: white;
+                        background-color: var(--main-bg-color);
+                        border: 1px solid white;
+                        cursor: pointer;
+                        font-family: 'Roboto', sans-serif;
+                        font-weight: bold;
+                    }
+                    
+                    .container {
+                        width: 90vw;
+                        min-height: calc(100vh - 60px - 12vh);
+                    }
+                    
+                    .slider {
+                        width: 80vw;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: auto;
+                        padding: 12px 0;
+                    }
+                    
+                    .card {
+                        max-width: 80vw;
+                        margin: 37px auto;
+                        font-family: 'Roboto', sans-serif;
+                    }
+                    
+                    .cards {
+                        display: flex;
+                        /*justify-content: space-between;*/
+                        overflow: scroll;
+                    }
+                    
+                    .card h3 {
+                        font-weight: 700;
+                    }
+                    
+                    .card-items {
+                        /* width: 12vw;*/
+                        display: inline-flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin: 0 15px;
+                    }
+                    
+                    footer {
+                        height: 10vh;
+                        background-color: var(--main-bg-color);
+                        color: white;
+                        font-family: 'Roboto', sans-serif;
+                    }
