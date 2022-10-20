@@ -1,0 +1,1 @@
+trimwhitespacefromstring.py
