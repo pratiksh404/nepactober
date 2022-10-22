@@ -1,0 +1,32 @@
+import java.util.*;
+public class maxminarray {
+    public static void maxmin(int n[]){
+        int max = Integer.MIN_VALUE;
+        int mini = Integer.MAX_VALUE;
+            
+        for(int i=0; i<n.length; i++){
+            if(n[i]>max){
+                max = n[i];
+            }
+             if(n[i]<mini){
+                mini=n[i];
+            }
+
+            }
+            System.out.println("smallest element is: "+mini);
+            System.out.println("maximum element  is: "+max);
+
+        }   
+    
+    public static void main(String[] args) {
+       
+    
+     
+    int n[]={1000,1,2,32000,2546};
+    maxmin(n);     
+
+
+        
+    }
+    
+}
