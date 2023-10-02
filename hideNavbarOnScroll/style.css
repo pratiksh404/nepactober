@@ -1,0 +1,17 @@
+/*  Using Tachyons.css */
+body {
+    height: 2000px;
+  }
+  
+  /* Slide transitions */
+  .slideUp {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    transition: transform .5s ease-out;
+  }
+  
+  .slideDown {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    transition: transform .5s ease-out;
+  }
